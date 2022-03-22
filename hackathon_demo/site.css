@@ -1,0 +1,89 @@
+/*navbar*/
+.navbar {
+  background-color: transparent;
+}
+/*casarole image slider*/
+.img-section {
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.section1_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("./imgs/wp4501789-kedarnath-wallpapers.jpg");
+}
+.section1_1 h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  width: 0ch;
+  animation: text 7s steps(20) infinite;
+  color: white;
+  font-size: 6.5vw;
+  font-family: "poppins";
+  border-right: 2px solid white;
+  z-index: 10;
+}
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 10ch;
+  }
+}
+
+/* kedarnath description section*/
+
+.temple_img {
+  width: 55vw;
+  height: 60vh;
+}
+.attractions {
+  width: 100%;
+  height: 90%;
+  z-index: 1;
+}
+
+.casdiv1,
+.casdiv2 {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  border-radius: 15px;
+}
+.casdiv1,
+.casdiv2 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+name {
+  text-align: center;
+  color: black;
+  z-index: 99;
+  letter-spacing: 1px;
+}
+/*google map div css here*/
+.container h1 {
+  text-align: center;
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: 3vw;
+  letter-spacing: 3px;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.map iframe {
+  border-radius: 20px;
+}
